@@ -1,0 +1,130 @@
+body {
+  background-image: url(wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  color: #e5cccc;
+}
+
+#topHead {
+  font-family: "Ribeye", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5cccc;
+  font-size: 80px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#para {
+  font-family: "Ribeye", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5cccc;
+  font-size: 25px;
+  text-align: center;
+  margin-top: -3px;
+}
+
+#topContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#imageContainer {
+  width: 450px;
+  background: #367dbd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+#photo{
+  width: 100%;
+    height: auto;
+    display: block;
+}
+
+.explanation {
+  padding: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+#isLabel {
+  font-family: "Nova Round", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#ipContainer {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  flex-direction: column;
+  justify-content: start;
+}
+
+#myButton {
+  font-family: "Nova Round", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #090909;
+  padding: 0.4em 1.7em;
+  margin-top: 17px;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 2px 2px 12px #c5c5c5, -3px -1px 11px 0px #ffffff;
+  height: min-content;
+}
+
+#myButton:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+#isDate {
+  width: 100%;
+  max-width: 220px;
+  height: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  background-color: #a2c1dd;
+  box-shadow: 0px 0px 20px -18px;
+}
+
+#isDate:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+#isDate:active {
+  transform: scale(0.95);
+}
+
+#isDate:focus {
+  border: 2px solid grey;
+}
